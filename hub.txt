@@ -1,7 +1,28 @@
 hub hubhub
-shortLabel hub_short_label
-longLabel hub_long_label
-genomesFile genomes.txt
-email houyem.toukabri@crg.eu
-descriptionUrl descriptionUrl
+shortLabel Example Hub
+longLabel Example hub for the 'useOneFile on' setting
 useOneFile on
+email houyem.toukabri@crg.eu
+
+genome hg38
+
+track bw0
+shortLabel BW_0umi
+longLabel BW_0umi Count
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://github.com/houyemt/scATAC_Trans/blob/main/X0Umi-TileSize-100-normMethod-ReadsInTSS-ArchR.bw
+
+track bw1
+shortLabel BW_1umi
+longLabel BW_1umi Count
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://github.com/houyemt/scATAC_Trans/blob/main/X1Umi-TileSize-100-normMethod-ReadsInTSS-ArchR.bw
+
+track bw1p
+shortLabel BW_1Plusumi
+longLabel BW_MoreThan1umi Count
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://github.com/houyemt/scATAC_Trans/blob/main/more1Umi-TileSize-100-normMethod-ReadsInTSS-ArchR.bw
