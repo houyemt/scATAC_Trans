@@ -1,0 +1,7 @@
+hub hubhub
+shortLabel hub_short_label
+longLabel hub_long_label
+genomesFile genomes.txt
+email houyem.toukabri@crg.eu
+descriptionUrl descriptionUrl
+useOneFile on
